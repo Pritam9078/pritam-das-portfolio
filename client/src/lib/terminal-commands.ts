@@ -22,12 +22,12 @@ export const terminalCommands: Record<string, () => string[]> = {
   ],
   'projects': () => [
     'Featured Projects:',
-    '1. DeFi Lending Protocol - Hackathon Winner',
-    '2. AI NFT Generator - Built on Solana',
-    '3. Smart Contract Analyzer - Security Tool',
-    '4. DAO Governance Platform - Live DApp',
-    '5. AI Trading Bot - ML-Powered',
-    '6. Cross-Chain Bridge - Multi-Chain'
+    '1. ONYX-CHAIN - Web3 Decentralized Storage',
+    '2. Skill_DAO - Decentralized Skill Marketplace',
+    '3. Library Management System - Java OOP',
+    '4. Book Recommendation System - ML-Powered',
+    '5. ATM Simulation System - Python Console',
+    '6. Smart Contract Portfolio - Solidity DApps'
   ],
   'contact': () => [
     'Email: pritam@pritamdas.dev',

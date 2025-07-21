@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { terminalCommands } from "@/lib/terminal-commands";
+import { terminalCommands } from "../../lib/terminal-commands";
 
 interface TerminalProps {
   open: boolean;

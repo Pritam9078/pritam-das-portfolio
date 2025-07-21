@@ -1,4 +1,4 @@
-import { skillsData } from "@/data/skills";
+import { skillsData } from "../../data/skills";
 import SkillBar from "@/components/ui/skill-bar";
 import { Badge } from "@/components/ui/badge";
 

@@ -7,6 +7,7 @@ interface Project {
   title: string;
   description: string;
   image: string;
+  images?: string[];
   badge: {
     text: string;
     color: string;
@@ -23,11 +24,24 @@ interface ProjectCardProps {
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
     <div className="glass p-6 rounded-2xl transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-[hsl(197,100%,50%)]/20">
-      <img
-        src={project.image}
-        alt={project.title}
-        className="rounded-xl mb-4 w-full h-48 object-cover"
-      />
+      {project.images && project.images.length > 1 ? (
+        <div className="grid grid-cols-2 gap-2 mb-4">
+          {project.images.slice(0, 4).map((img, index) => (
+            <img
+              key={index}
+              src={img}
+              alt={`${project.title} screenshot ${index + 1}`}
+              className="rounded-lg w-full h-24 object-cover"
+            />
+          ))}
+        </div>
+      ) : (
+        <img
+          src={project.image}
+          alt={project.title}
+          className="rounded-xl mb-4 w-full h-48 object-cover"
+        />
+      )}
       <div className="flex items-center justify-between mb-3">
         <h3 className={`text-xl font-bold ${project.badge.color}`}>
           {project.title}

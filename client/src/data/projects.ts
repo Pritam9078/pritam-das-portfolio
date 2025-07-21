@@ -3,7 +3,12 @@ export const projectsData = [
     id: 1,
     title: "ONYX-CHAIN",
     description: "A Web3-based decentralized file storage platform with wallet-based authentication, secure access control, and cyberpunk aesthetic. Built for next-gen users demanding privacy and control.",
-    image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=300",
+    image: "https://i.postimg.cc/HLGCktmq/Whats-App-Image-2025-07-22-at-04-38-51-1.jpg",
+    images: [
+      "https://i.postimg.cc/HLGCktmq/Whats-App-Image-2025-07-22-at-04-38-51-1.jpg",
+      "https://i.postimg.cc/N01v9rf5/Whats-App-Image-2025-07-22-at-04-38-51-2.jpg",
+      "https://i.postimg.cc/KvV60511/Whats-App-Image-2025-07-22-at-04-38-51-3.jpg"
+    ],
     badge: {
       text: "Web3 Storage",
       color: "text-[hsl(197,100%,50%)]"

@@ -1,6 +1,6 @@
 import { useTyping } from "@/hooks/use-typing";
 
-const texts = ['Web3 Developer', 'Smart Contract Builder', 'Blockchain Enthusiast', 'AI Innovator'];
+const texts = ['Web3 Developer', 'Smart Contract Builder', 'Blockchain Enthusiast', 'DeFi Innovator', 'Crypto Pioneer'];
 
 export default function TypingAnimation() {
   const displayText = useTyping(texts, 100, 2000, 50);

@@ -41,7 +41,7 @@ export default function Hero() {
               <TypingAnimation />
             </div>
             <p className="text-xl text-gray-300 mb-8 max-w-lg">
-              CSE Student passionate about decentralized technologies and AI innovation. Building the future, one smart contract at a time.
+              CSE Student passionate about blockchain and Web3 innovation. Building the decentralized future, one smart contract at a time.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button

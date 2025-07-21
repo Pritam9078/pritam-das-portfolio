@@ -10,13 +10,14 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg text-gray-300 leading-relaxed">
-              As a Computer Science student with a passion for emerging technologies, I'm deeply invested in the transformative potential of Web3 and AI. My journey began with curiosity about decentralized systems and has evolved into building real-world applications.
+              As a Computer Science student, I'm passionate about blockchain technology and the revolutionary potential of Web3. My journey began with curiosity about decentralized systems and has evolved into building real-world DeFi applications and smart contracts.
             </p>
             <p className="text-lg text-gray-300 leading-relaxed">
-              I believe in the power of blockchain to democratize finance and create transparent, trustless systems. Combined with AI's ability to process and understand data at scale, these technologies represent the next frontier of human innovation.
+              I believe blockchain is the future of finance and digital ownership. From building decentralized storage platforms to participating in DAO governance, I'm committed to creating transparent, trustless systems that empower users and democratize access to financial services.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <Badge className="glass px-4 py-2 rounded-full text-sm">🎯 Campus Maven @RiseIn</Badge>
+              <Badge className="glass px-4 py-2 rounded-full text-sm">⛓️ Campus to Crypto Member</Badge>
               <Badge className="glass px-4 py-2 rounded-full text-sm">🏆 Agoric Hackathon</Badge>
               <Badge className="glass px-4 py-2 rounded-full text-sm">🚀 D3 Fest</Badge>
             </div>
@@ -38,12 +39,12 @@ export default function About() {
                   <span className="text-[hsl(158,100%,50%)]">Advanced</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>AI/ML Implementation</span>
+                  <span>DeFi Protocols</span>
                   <span className="text-[hsl(197,100%,50%)]">Intermediate</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>DeFi Protocols</span>
-                  <span className="text-[hsl(258,84%,69%)]">Learning</span>
+                  <span>Web3 Development</span>
+                  <span className="text-[hsl(258,84%,69%)]">Advanced</span>
                 </div>
               </div>
             </div>

@@ -49,6 +49,18 @@ Preferred communication style: Simple, everyday language.
 - Features verified: EmailJS contact form, resume integration, project showcases
 - All contact information and social links properly configured
 
+### Content Updates - Blockchain Focus (January 22, 2025)
+- Updated personal brand to emphasize blockchain and Web3 passion
+- Reduced AI/ML focus per user preference
+- Added new role badges: "Campus to Crypto Member" and "Campus Maven @RiseIn"
+- Updated hero section tagline to focus on blockchain innovation
+- Modified about section to highlight DeFi applications and smart contracts
+- Updated skill focus: Smart Contract Development (Advanced), DeFi Protocols (Intermediate), Web3 Development (Advanced)
+- Enhanced ONYX-CHAIN project with real screenshots:
+  - Added 3 project images: UI interface, dashboard, and features
+  - Implemented multi-image gallery for project showcase
+- Updated typing animation: removed "AI Explorer", added "DeFi Innovator" and "Crypto Pioneer"
+
 ## System Architecture
 
 ### Frontend Architecture

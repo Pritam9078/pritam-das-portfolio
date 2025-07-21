@@ -22,18 +22,19 @@ export const terminalCommands: Record<string, () => string[]> = {
   ],
   'projects': () => [
     'Featured Projects:',
-    '1. ONYX-CHAIN - Web3 Decentralized Storage',
-    '2. Skill_DAO - Decentralized Skill Marketplace',
-    '3. Library Management System - Java OOP',
+    '1. LMS - Library Management System (github.com/Pritam9078/LMS)',
+    '2. Skill_DAO - Decentralized Skill Marketplace (github.com/Pritam9078/Skill_DAO)',
+    '3. ONYX-CHAIN - Web3 Decentralized Storage (github.com/Pritam9078/ONYX-CHAIN)',
     '4. Book Recommendation System - ML-Powered',
     '5. ATM Simulation System - Python Console',
     '6. Smart Contract Portfolio - Solidity DApps'
   ],
   'contact': () => [
-    'Email: pritam@pritamdas.dev',
-    'LinkedIn: linkedin.com/in/pritamdas',
-    'GitHub: github.com/pritamdas',
-    'Domain: pritamdas.dev'
+    'Email: dpritam2708@gmail.com',
+    'Phone: +91 7683927667',
+    'LinkedIn: linkedin.com/in/pritam-das-738aaa237',
+    'GitHub: github.com/Pritam9078',
+    'Twitter: @BlocksmithP_D'
   ],
   'clear': () => [],
   'exit': () => []

@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Send, Linkedin, Github } from "lucide-react";
+import { Mail, Send, Linkedin, Github, Phone } from "lucide-react";
 
 const contactSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
@@ -82,7 +82,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold">Email</p>
-                  <p className="text-gray-400">pritam@pritamdas.dev</p>
+                  <p className="text-gray-400">dpritam2708@gmail.com</p>
                 </div>
               </div>
               
@@ -92,7 +92,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold">LinkedIn</p>
-                  <p className="text-gray-400">linkedin.com/in/pritamdas</p>
+                  <p className="text-gray-400">linkedin.com/in/pritam-das-738aaa237</p>
                 </div>
               </div>
               
@@ -102,7 +102,17 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="font-semibold">GitHub</p>
-                  <p className="text-gray-400">github.com/pritamdas</p>
+                  <p className="text-gray-400">github.com/Pritam9078</p>
+                </div>
+              </div>
+              
+              <div className="flex items-center space-x-4">
+                <div className="w-12 h-12 bg-[hsl(197,100%,50%)] bg-opacity-20 rounded-full flex items-center justify-center">
+                  <Phone className="text-[hsl(197,100%,50%)]" />
+                </div>
+                <div>
+                  <p className="font-semibold">Phone</p>
+                  <p className="text-gray-400">+91 7683927667</p>
                 </div>
               </div>
             </div>

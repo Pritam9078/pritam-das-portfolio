@@ -8,6 +8,23 @@ This is a modern, cyberpunk-themed personal portfolio website for Pritam Das, a 
 
 Preferred communication style: Simple, everyday language.
 
+## Recent Changes
+
+### Contact Information Update (January 21, 2025)
+- Updated all contact details across the portfolio:
+  - Email: dpritam2708@gmail.com
+  - Phone: +91 7683927667
+  - LinkedIn: linkedin.com/in/pritam-das-738aaa237
+  - GitHub: github.com/Pritam9078
+  - Twitter: @BlocksmithP_D
+- Updated social media links in footer with proper URLs
+- Added phone number contact section in contact page
+- Updated terminal commands with real contact information
+- Project GitHub links already correctly configured:
+  - LMS: github.com/Pritam9078/LMS
+  - Skill_DAO: github.com/Pritam9078/Skill_DAO
+  - ONYX-CHAIN: github.com/Pritam9078/ONYX-CHAIN
+
 ## System Architecture
 
 ### Frontend Architecture

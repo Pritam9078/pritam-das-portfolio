@@ -14,28 +14,34 @@ export default function Footer() {
           
           <div className="flex justify-center space-x-6 mb-8">
             <a
-              href="#"
+              href="https://github.com/Pritam9078"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 bg-[hsl(197,100%,50%)] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-40 transition-all duration-300"
               aria-label="GitHub"
             >
               <Github className="h-6 w-6 text-[hsl(197,100%,50%)]" />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/pritam-das-738aaa237"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 bg-[hsl(258,84%,69%)] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-40 transition-all duration-300"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-6 w-6 text-[hsl(258,84%,69%)]" />
             </a>
             <a
-              href="#"
+              href="https://x.com/BlocksmithP_D?t=Dcyr-2bPclklIQwOyuJDwg&s=09"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-12 h-12 bg-[hsl(158,100%,50%)] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-40 transition-all duration-300"
               aria-label="Twitter"
             >
               <Twitter className="h-6 w-6 text-[hsl(158,100%,50%)]" />
             </a>
             <a
-              href="mailto:pritam@pritamdas.dev"
+              href="mailto:dpritam2708@gmail.com"
               className="w-12 h-12 bg-[hsl(197,100%,50%)] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-40 transition-all duration-300"
               aria-label="Email"
             >

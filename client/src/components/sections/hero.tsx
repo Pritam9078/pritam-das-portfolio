@@ -1,27 +1,31 @@
 import { Button } from "@/components/ui/button";
 import TypingAnimation from "@/components/ui/typing-animation";
 import { Rocket, Download, Eye } from "lucide-react";
+import { useToast } from "@/hooks/use-toast";
 
 export default function Hero() {
+  const { toast } = useToast();
+
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
   };
 
   const handleResumeDownload = () => {
-    // Direct download from GitHub repository
-    const resumeUrl = 'https://github.com/Pritam9078/Resume_Pritam/raw/main/Pritam_Das_Resume.pdf';
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = 'Pritam_Das_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // For now, open the GitHub repository where the resume should be uploaded
+    toast({
+      title: "Resume Repository",
+      description: "Opening GitHub repository. Please upload your resume as 'Pritam_Das_Resume.pdf' to enable direct download.",
+    });
+    window.open('https://github.com/Pritam9078/Resume_Pritam', '_blank');
   };
 
   const handleResumeView = () => {
-    // Open resume from GitHub repository in new tab
-    const resumeUrl = 'https://github.com/Pritam9078/Resume_Pritam/blob/main/Pritam_Das_Resume.pdf';
-    window.open(resumeUrl, '_blank');
+    // Open the GitHub repository for now
+    toast({
+      title: "Resume Repository",
+      description: "Opening GitHub repository. Upload your resume to view it directly!",
+    });
+    window.open('https://github.com/Pritam9078/Resume_Pritam', '_blank');
   };
 
   return (

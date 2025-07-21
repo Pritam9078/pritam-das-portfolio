@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
+import emailjs from '@emailjs/browser';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -36,22 +37,38 @@ export default function Contact() {
   const onSubmit = async (data: ContactForm) => {
     setIsSubmitting(true);
     
-    // Simulate form submission
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      // Initialize EmailJS with your public key
+      emailjs.init('2C2CUHwJptdmAyJgf');
       
-      console.log("Form submitted:", data);
+      // Prepare template parameters
+      const templateParams = {
+        from_name: data.name,
+        from_email: data.email,
+        subject: data.subject,
+        message: data.message,
+        to_name: 'Pritam Das',
+      };
+      
+      // Send email using EmailJS
+      await emailjs.send(
+        'service_omcki4p',    // Your service ID
+        'template_sdaioob',   // Your template ID
+        templateParams,
+        '2C2CUHwJptdmAyJgf'  // Your public key
+      );
       
       toast({
-        title: "Message sent!",
+        title: "Message sent successfully!",
         description: "Thank you for your message. I'll get back to you soon!",
       });
       
       form.reset();
     } catch (error) {
+      console.error('EmailJS error:', error);
       toast({
-        title: "Error",
-        description: "Something went wrong. Please try again.",
+        title: "Failed to send message",
+        description: "Something went wrong. Please try again or contact me directly.",
         variant: "destructive",
       });
     } finally {

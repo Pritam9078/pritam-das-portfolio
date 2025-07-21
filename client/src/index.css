@@ -4,6 +4,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Light theme variables */
+:root.light {
+  --cyber-dark: hsl(0, 0%, 95%);
+  --text-primary: hsl(0, 0%, 10%);
+  --text-secondary: hsl(0, 0%, 30%);
+  --glass-bg: rgba(255, 255, 255, 0.1);
+  --glass-border: rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme overrides */
+.light {
+  background-color: var(--cyber-dark);
+  color: var(--text-primary);
+}
+
+.light .glass {
+  background: var(--glass-bg);
+  border: 1px solid var(--glass-border);
+}
+
+/* Animation delays for loading spinner */
+.animation-delay-150 {
+  animation-delay: 150ms;
+}
+
+.animation-delay-300 {
+  animation-delay: 300ms;
+}
+
 :root {
   --background: hsl(240, 10%, 3.9%);
   --foreground: hsl(0, 0%, 98%);

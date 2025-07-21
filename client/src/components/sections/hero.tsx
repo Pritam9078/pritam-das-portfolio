@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=400"
+                src="https://i.postimg.cc/Gp2tLdw7/Whats-App-Image-2025-07-16-at-16-56-51.jpg"
                 alt="Pritam Das - Professional Portrait"
                 className="w-80 h-80 rounded-full object-cover glass p-1 animate-float"
               />

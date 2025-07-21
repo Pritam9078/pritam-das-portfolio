@@ -1,0 +1,139 @@
+Create a visually striking, recruiter-friendly, and futuristic personal portfolio website for a rising tech professional named Pritam Das.
+The site must showcase technical depth in Web3, Blockchain, and AI/ML, with an aesthetic that reflects innovation and cutting-edge development.
+
+👤 Profile Summary:
+Name: Pritam Das
+
+Profession: CSE Student | Web3 Developer | AI/ML Explorer
+
+Looking for: Blockchain internships, smart contract roles, tech collaborations in Web3 and AI
+
+Personality: Curious, experimental, and community-driven
+
+Domain Suggestion: pritamdas.dev
+
+Profile Visual: Use a professional photo or animated avatar (SVG/Lottie) matching a tech-futuristic theme
+
+🧱 Website Structure & Sections:
+Home / Hero Section
+
+Prominent name and role: “Pritam Das – Web3 Developer | AI Explorer”
+
+Dynamic typing effect cycling through: "Smart Contract Builder", "Blockchain Enthusiast", "AI Innovator"
+
+CTAs: “Let’s Connect” → scrolls to Contact; “Download Resume” → links to PDF
+
+Background: Animated gradient waves or subtle particles
+
+Right side: Avatar or photo; Left side: Text content
+
+About Me
+
+Visually split layout:
+
+Left: Short story, background, interests in decentralization and AI
+
+Right: Avatar + badges like Campus Maven @RiseIn, Agoric Hackathon, D3 Fest
+
+Mention learning path and goals in Web3 + AI development
+
+Skills & Tools
+
+Categorized tech stack with visual icons or progress meters:
+
+Web3: Solidity, Hardhat, Ethereum, MetaMask, IPFS, EVM, Celestia, Cosmos, Metaplex
+
+AI/ML: Python, TensorFlow, OpenCV, Scikit-learn, NumPy, Pandas
+
+Frontend: React, Next.js, TypeScript, TailwindCSS
+
+Use animated tooltips or hover effects to highlight experience level
+
+Projects
+
+Display 4–6 top-tier projects in animated cards with glassmorphism or neon glow
+
+Each card includes:
+
+Name, short description, tech stack
+
+Links: "Live Demo", "GitHub Repo", and badges like “Built on Solana”, “Hackathon Winner”
+
+Certifications & Achievements
+
+Timeline or badge grid layout
+
+Verified logos and links for: Agoric Hackathon, Avalanche Workshop, Mamathon, CampusToCrypto
+
+Showcase community engagement and learning
+
+Resume Download
+
+Clear “Download Resume” CTA with a styled button
+
+Optional: Testimonials or recognitions underneath
+
+Blog / Insights (Optional)
+
+Link or embed blog posts from Hashnode, Medium, or Notion
+
+Sample topics: “Deploying Smart Contracts with Hardhat”, “AI Use Cases in Decentralized Apps”
+
+Contact Section
+
+Animated contact form with fields: name, email, message
+
+Include LinkedIn, GitHub, Twitter icons
+
+Optional Calendly link for scheduling calls or collabs
+
+Fun / Easter Egg Section
+
+“Command Line Me” terminal-style interaction with hidden facts
+
+Web3 wallet connect demo (optional mini DApp or NFT showcase)
+
+Hidden Konami code or keyboard shortcut Easter egg
+
+Footer
+
+ENS-style handle or ETH address (optional)
+
+Quote: “Decentralizing dreams, one commit at a time.”
+
+Social icons with hover animations
+
+🎨 Design Guidelines:
+Theme: Futuristic, cyberpunk, minimal
+
+Colors: Dark mode default; neon accents like electric blue, purple, green
+
+Layout: Responsive, mobile-first, clean sections
+
+Effects:
+
+Glassmorphism / neumorphism for cards
+
+Framer Motion or GSAP for scroll-based transitions
+
+Subtle hover animations and micro-interactions
+
+Fonts: Modern tech-style typography with great readability
+
+Accessibility: Use ARIA roles, keyboard support, and high contrast for visibility
+
+SEO & Performance: Optimized loading, semantic HTML, alt tags
+
+⚙️ Tech Stack Suggestions:
+Frontend: Next.js + TailwindCSS
+
+Animations: Framer Motion or GSAP
+
+Assets: SVGs, Lottie animations, Heroicons
+
+Hosting: Vercel or Netlify
+
+Best Practices: Clean modular code, responsive layout, GitHub-friendly repo structure
+
+🎯 Goal:
+Create a portfolio that leaves a lasting impression in under 10 seconds — visually exciting, technically strong, and strategically designed to get Pritam Das noticed by recruiters and collaborators in the Web3 and AI spaces.

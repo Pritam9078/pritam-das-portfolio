@@ -34,7 +34,8 @@ export const terminalCommands: Record<string, () => string[]> = {
     'Phone: +91 7683927667',
     'LinkedIn: linkedin.com/in/pritam-das-738aaa237',
     'GitHub: github.com/Pritam9078',
-    'Twitter: @BlocksmithP_D'
+    'Twitter: @BlocksmithP_D',
+    'Resume: github.com/Pritam9078/Resume_Pritam'
   ],
   'clear': () => [],
   'exit': () => []

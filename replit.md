@@ -31,10 +31,10 @@ Preferred communication style: Simple, everyday language.
   - Template ID: template_sdaioob
   - Public Key: 2C2CUHwJptdmAyJgf
 - Added resume download and view functionality
-- Created client/public directory for static file serving
-- Added sample resume PDF (user needs to replace with actual resume)
+- Connected resume buttons to GitHub repository: github.com/Pritam9078/Resume_Pritam
 - Enhanced hero section with dual resume buttons (View/Download)
-- Configured server to serve static files from client/public directory
+- Updated profile picture to: https://i.postimg.cc/T38MYw2h/Whats-App-Image-2025-07-16-at-16-56-51.jpg
+- Resume now served from GitHub for easy updates and better performance
 
 ## System Architecture
 

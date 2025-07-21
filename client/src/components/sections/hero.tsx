@@ -8,9 +8,10 @@ export default function Hero() {
   };
 
   const handleResumeDownload = () => {
-    // Create a download link for the resume
+    // Direct download from GitHub repository
+    const resumeUrl = 'https://github.com/Pritam9078/Resume_Pritam/raw/main/Pritam_Das_Resume.pdf';
     const link = document.createElement('a');
-    link.href = '/resume-sample.pdf'; // Update this path with your actual resume file
+    link.href = resumeUrl;
     link.download = 'Pritam_Das_Resume.pdf';
     document.body.appendChild(link);
     link.click();
@@ -18,8 +19,9 @@ export default function Hero() {
   };
 
   const handleResumeView = () => {
-    // Open resume in new tab for viewing
-    window.open('/resume-sample.pdf', '_blank');
+    // Open resume from GitHub repository in new tab
+    const resumeUrl = 'https://github.com/Pritam9078/Resume_Pritam/blob/main/Pritam_Das_Resume.pdf';
+    window.open(resumeUrl, '_blank');
   };
 
   return (
@@ -68,7 +70,7 @@ export default function Hero() {
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
               <img
-                src="https://i.postimg.cc/Gp2tLdw7/Whats-App-Image-2025-07-16-at-16-56-51.jpg"
+                src="https://i.postimg.cc/T38MYw2h/Whats-App-Image-2025-07-16-at-16-56-51.jpg"
                 alt="Pritam Das - Professional Portrait"
                 className="w-80 h-80 rounded-full object-cover glass p-1 animate-float"
               />

@@ -35,6 +35,12 @@ Preferred communication style: Simple, everyday language.
 - Enhanced hero section with dual resume buttons (View/Download)
 - Updated profile picture to: https://i.postimg.cc/T38MYw2h/Whats-App-Image-2025-07-16-at-16-56-51.jpg
 - Resume now served from GitHub for easy updates and better performance
+- Updated all skill levels to intermediate (60-70% proficiency)
+- Prepared deployment configurations for free hosting platforms:
+  - Vercel configuration (vercel.json)
+  - Netlify configuration (netlify.toml)
+  - Railway-ready package.json
+  - Deployment guide (README-DEPLOYMENT.md)
 
 ## System Architecture
 

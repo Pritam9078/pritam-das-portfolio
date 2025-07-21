@@ -1,10 +1,25 @@
 import { Button } from "@/components/ui/button";
 import TypingAnimation from "@/components/ui/typing-animation";
-import { Rocket, Download } from "lucide-react";
+import { Rocket, Download, Eye } from "lucide-react";
 
 export default function Hero() {
   const scrollToContact = () => {
     document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const handleResumeDownload = () => {
+    // Create a download link for the resume
+    const link = document.createElement('a');
+    link.href = '/resume-sample.pdf'; // Update this path with your actual resume file
+    link.download = 'Pritam_Das_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const handleResumeView = () => {
+    // Open resume in new tab for viewing
+    window.open('/resume-sample.pdf', '_blank');
   };
 
   return (
@@ -31,12 +46,23 @@ export default function Hero() {
                 <Rocket className="w-4 h-4 mr-2" />
                 Let's Connect
               </Button>
-              <Button
-                className="cyber-gradient px-8 py-4 rounded-lg text-black font-semibold hover:scale-105 transition-transform duration-300"
-              >
-                <Download className="w-4 h-4 mr-2" />
-                Download Resume
-              </Button>
+              <div className="flex gap-2">
+                <Button
+                  onClick={handleResumeView}
+                  className="glass px-6 py-4 rounded-lg hover:bg-[hsl(258,84%,69%)] hover:bg-opacity-20 transition-all duration-300"
+                  variant="ghost"
+                >
+                  <Eye className="w-4 h-4 mr-2" />
+                  View Resume
+                </Button>
+                <Button
+                  onClick={handleResumeDownload}
+                  className="cyber-gradient px-6 py-4 rounded-lg text-black font-semibold hover:scale-105 transition-transform duration-300"
+                >
+                  <Download className="w-4 h-4 mr-2" />
+                  Download
+                </Button>
+              </div>
             </div>
           </div>
           <div className="flex justify-center lg:justify-end">

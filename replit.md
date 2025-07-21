@@ -25,6 +25,17 @@ Preferred communication style: Simple, everyday language.
   - Skill_DAO: github.com/Pritam9078/Skill_DAO
   - ONYX-CHAIN: github.com/Pritam9078/ONYX-CHAIN
 
+### EmailJS Integration & Resume Feature (January 21, 2025)
+- Integrated EmailJS for real email functionality with credentials:
+  - Service ID: service_omcki4p
+  - Template ID: template_sdaioob
+  - Public Key: 2C2CUHwJptdmAyJgf
+- Added resume download and view functionality
+- Created client/public directory for static file serving
+- Added sample resume PDF (user needs to replace with actual resume)
+- Enhanced hero section with dual resume buttons (View/Download)
+- Configured server to serve static files from client/public directory
+
 ## System Architecture
 
 ### Frontend Architecture

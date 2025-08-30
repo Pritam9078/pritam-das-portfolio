@@ -32,7 +32,7 @@ export default function Footer() {
               <Linkedin className="h-6 w-6 text-[hsl(258,84%,69%)]" />
             </a>
             <a
-              href="https://x.com/BlocksmithP_D?t=Dcyr-2bPclklIQwOyuJDwg&s=09"
+              href="https://x.com/Priko_rax"
               target="_blank"
               rel="noopener noreferrer"
               className="w-12 h-12 bg-[hsl(158,100%,50%)] bg-opacity-20 rounded-full flex items-center justify-center hover:bg-opacity-40 transition-all duration-300"

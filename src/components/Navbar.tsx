@@ -28,10 +28,12 @@ const Navbar = () => {
       let element = elem as HTMLAnchorElement;
       element.addEventListener("click", (e) => {
         if (window.innerWidth > 1024) {
-          e.preventDefault();
-          let elem = e.currentTarget as HTMLAnchorElement;
-          let section = elem.getAttribute("data-href");
-          smoother.scrollTo(section, true, "top top");
+          let currentTarget = e.currentTarget as HTMLAnchorElement;
+          let section = currentTarget.getAttribute("data-href");
+          if (section) {
+            e.preventDefault();
+            smoother.scrollTo(section, true, "top top");
+          }
         }
       });
     });
@@ -65,6 +67,11 @@ const Navbar = () => {
           <li>
             <a data-href="#contact" href="#contact">
               <HoverLinks text="CONTACT" />
+            </a>
+          </li>
+          <li>
+            <a href="https://topmate.io/pritam_das" target="_blank" rel="noreferrer">
+              <HoverLinks text="1:1 CALL" />
             </a>
           </li>
         </ul>

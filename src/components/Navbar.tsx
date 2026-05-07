@@ -70,7 +70,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://topmate.io/pritam_das" target="_blank" rel="noreferrer">
+            <a href="https://calendly.com/dpritam2708/30min" target="_blank" rel="noreferrer">
               <HoverLinks text="1:1 CALL" />
             </a>
           </li>

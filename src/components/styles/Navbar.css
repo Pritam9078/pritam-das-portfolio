@@ -13,15 +13,17 @@
   z-index: 9999;
 }
 .header ul {
-  font-size: 12px;
+  font-size: 11px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   margin: 0;
   padding: 0;
   list-style: none;
-  column-gap: 40px;
-  row-gap: 8px;
-  align-items: end;
+  column-gap: 12px;
+  row-gap: 6px;
+  align-items: center;
 }
 .header ul li {
   margin-left: 0px;
@@ -44,6 +46,7 @@
     flex-direction: row;
     align-items: center;
     font-size: 14px;
+    column-gap: 40px;
   }
   .header ul li {
     color: #eae5ec;

@@ -1,0 +1,137 @@
+.cert-section {
+  padding: 150px 0;
+  margin-bottom: 150px;
+  position: relative;
+  z-index: 20;
+}
+
+.cert-section h2 {
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 400;
+  text-align: center;
+  background: linear-gradient(0deg, #0d9488, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  margin-bottom: 80px;
+}
+
+.cert-section h2 span {
+  font-family: "Geist", sans-serif;
+  font-weight: 300;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: var(--cWidth);
+  max-width: var(--cMaxWidth);
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.cert-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.cert-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at top right, rgba(94, 234, 212, 0.1), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-10px);
+  border-color: rgba(94, 234, 212, 0.3);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.cert-card:hover::before {
+  opacity: 1;
+}
+
+.cert-icon {
+  font-size: 40px;
+  color: var(--accentColor);
+  opacity: 0.8;
+}
+
+.cert-info h4 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.cert-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--accentColor);
+  margin: 0;
+  margin-bottom: 5px;
+  opacity: 0.9;
+}
+
+.cert-info p {
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.cert-id {
+  font-size: 11px;
+  font-family: monospace;
+  opacity: 0.3;
+  display: block;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .cert-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .cert-section h2 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cert-card {
+    padding: 30px;
+  }
+
+  .cert-section h2 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}

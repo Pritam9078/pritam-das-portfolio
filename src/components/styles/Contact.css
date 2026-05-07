@@ -1,0 +1,172 @@
+.contact-section {
+  margin: auto;
+  padding-bottom: 150px;
+  margin-top: 150px;
+  position: relative;
+  z-index: 2;
+  background-color: var(--backgroundColor);
+}
+
+.contact-container {
+  width: var(--cWidth);
+  max-width: var(--cMaxWidth);
+  margin: auto;
+}
+
+.contact-header {
+  margin-bottom: 80px;
+}
+
+.contact-header h3 {
+  font-size: 80px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+}
+
+.contact-header h3 span {
+  color: var(--accentColor);
+  font-weight: 300;
+}
+
+.contact-header p {
+  font-size: 20px;
+  opacity: 0.6;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.contact-box {
+  flex: 1;
+}
+
+.contact-box h4 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: var(--accentColor);
+}
+
+.education-item {
+  margin-bottom: 30px;
+}
+
+.edu-title {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.edu-school {
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 5px 0;
+}
+
+.edu-date {
+  font-size: 14px;
+  opacity: 0.5;
+  margin: 0;
+}
+
+.social-links-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+a.contact-social {
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+a.contact-social:hover {
+  color: var(--accentColor);
+  border-bottom-color: var(--accentColor);
+  padding-left: 10px;
+}
+
+.contact-footer {
+  margin-top: 150px;
+  padding-top: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-info h2 {
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.footer-info h2 span {
+  color: var(--accentColor);
+  font-weight: 600;
+}
+
+.footer-info h5 {
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  opacity: 0.4;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contact-header h3 {
+    font-size: 60px;
+  }
+  
+  .contact-flex {
+    gap: 50px;
+  }
+
+  .edu-title {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contact-header h3 {
+    font-size: 50px;
+  }
+
+  .contact-flex {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .social-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-section {
+    margin-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-header h3 {
+    font-size: 40px;
+  }
+  
+  .footer-info h2 {
+    font-size: 22px;
+  }
+}

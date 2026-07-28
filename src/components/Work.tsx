@@ -29,7 +29,7 @@ const projects = [
     title: "QubitX",
     category: "Quantum Computing Visualization & Education",
     tools: "Three.js, Plotly.js, Math.js, JavaScript, CSS3",
-    image: "/images/qubitx.png",
+    image: "/images/qubit_x.png",
     link: "https://github.com/Pritam9078/QubitX",
   },
   {
@@ -109,15 +109,19 @@ const Work = () => {
 
           {/* Slides */}
           <div className="carousel-track-container">
-            <div
-              className="carousel-track"
-              style={{
-                transform: `translateX(-${currentIndex * 100}%)`,
-              }}
-            >
+            <div className="carousel-track">
               {projects.map((project, index) => (
-                <div className="carousel-slide" key={index}>
-                  <div className="carousel-content">
+                <div 
+                  className="carousel-slide" 
+                  key={index}
+                  style={{ 
+                    flex: '0 0 100%', 
+                    width: '100%',
+                    transform: `translateX(-${currentIndex * 100}%)`,
+                    transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
+                  }}
+                >
+                  <div className="carousel-card">
                     <div className="carousel-info">
                       <div className="carousel-number">
                         <h3>0{index + 1}</h3>

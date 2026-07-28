@@ -24,7 +24,7 @@ export function setCharTimeline(
   const tl2 = gsap.timeline({
     scrollTrigger: {
       trigger: ".about-section",
-      start: "center 55%",
+      start: "top 75%",
       end: "bottom top",
       scrub: true,
       invalidateOnRefresh: true,
@@ -33,7 +33,7 @@ export function setCharTimeline(
   const tl3 = gsap.timeline({
     scrollTrigger: {
       trigger: ".whatIDO",
-      start: "top top",
+      start: "top 75%",
       end: "bottom top",
       scrub: true,
       invalidateOnRefresh: true,
@@ -80,8 +80,6 @@ export function setCharTimeline(
           { z: 75, y: 8.4, duration: 6, delay: 2, ease: "power3.inOut" },
           0
         )
-        .to(".about-section", { y: "30%", duration: 6 }, 0)
-        .to(".about-section", { opacity: 0, delay: 3, duration: 2 }, 0)
         .fromTo(
           ".character-model",
           { pointerEvents: "inherit", xPercent: -100 },
@@ -119,7 +117,6 @@ export function setCharTimeline(
           0
         )
         .to(camera.position, { z: 25, y: 12.8, duration: 4, ease: "none", delay: 1 }, 0)
-        .fromTo(".whatIDO", { y: 0 }, { y: "15%", duration: 2 }, 0)
         .to(character.rotation, { x: -0.04, y: 0, duration: 2, delay: 1 }, 0)
         .to(".character-model", { opacity: 0, delay: 4, duration: 1 }, 0);
     }

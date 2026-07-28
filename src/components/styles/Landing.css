@@ -236,7 +236,7 @@
 
 h2.landing-info-h2 {
   color: #14b8a6;
-  font-size: 56px;
+  font-size: 42px;
   width: auto;
   margin: 0;
   font-family: "Geist", sans-serif;
@@ -324,7 +324,7 @@ h2.landing-info-h2 {
   }
 
   h2.landing-info-h2 {
-    font-size: 55px;
+    font-size: 42px;
   }
 }
 
@@ -355,7 +355,7 @@ h2.landing-info-h2 {
     z-index: 15;
     text-align: left;
     transform: translate(0%, -50%);
-    right: 5%;
+    right: 1%;
     left: auto;
     min-width: auto;
   }
@@ -381,6 +381,6 @@ h2.landing-info-h2 {
   }
 
   h2.landing-info-h2 {
-    font-size: 75px;
+    font-size: 58px;
   }
 }

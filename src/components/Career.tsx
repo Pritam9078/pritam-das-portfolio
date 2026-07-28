@@ -15,15 +15,32 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Intern</h4>
-                <h5>Prustaz</h5>
+                <h4>Fullstack Developer Intern</h4>
+                <h5><a href="https://www.opmcorporation.com/" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>OPM Corporation</a></h5>
+                <h6 style={{ margin: 0, fontWeight: 400, opacity: 0.6, fontSize: "14px" }}>May 2026 – July 2026</h6>
+                <h6 style={{ margin: "5px 0 0 0", fontWeight: 400, opacity: 0.5, fontSize: "12px", fontFamily: "monospace" }}>Credential ID: OPMN00264</h6>
+              </div>
+              <div className="career-location">
+                <h3>In-Office</h3>
+              </div>
+            </div>
+            <p>
+              Developed and maintained full-stack web applications, contributing to projects including Ridlin (e-commerce), 3D Genomix Lab (healthcare), and OPM Learnings (edtech) by implementing features, resolving bugs, and improving application performance.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Software & Blockchain Intern</h4>
+                <h5><a href="https://www.prustaz.com/" target="_blank" rel="noopener noreferrer" style={{ color: "inherit", textDecoration: "none" }}>Prustaz Technologies Pvt. Ltd.</a></h5>
+                <h6 style={{ margin: 0, fontWeight: 400, opacity: 0.6, fontSize: "14px" }}>May 2025 – May 2026</h6>
               </div>
               <div className="career-location">
                 <h3>Hybrid</h3>
               </div>
             </div>
             <p>
-              Working as a Software Developer Intern at Prustaz Technologies Pvt. Ltd., contributing to real-world projects and gaining hands-on experience in modern technologies, including blockchain. Focused on building efficient, scalable solutions.
+              Contributed to real-world software and blockchain development projects, gaining hands-on experience in modern technologies.
             </p>
           </div>
           <div className="career-info-box">

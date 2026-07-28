@@ -16,7 +16,8 @@ export default function setSplitText() {
   const paras: NodeListOf<ParaElement> = document.querySelectorAll(".para");
   const titles: NodeListOf<ParaElement> = document.querySelectorAll(".title");
 
-  const TriggerStart = window.innerWidth <= 1024 ? "top 60%" : "20% 60%";
+  // Trigger animation earlier when the top of the section enters the bottom 15% of the screen
+  const TriggerStart = "top 85%";
   const ToggleAction = "play pause resume reverse";
 
   paras.forEach((para: ParaElement) => {

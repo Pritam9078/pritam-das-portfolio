@@ -22,8 +22,10 @@
   font-size: calc(4vw + 25px);
   line-height: calc(4vw + 20px);
   font-weight: 600;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: 10px;
   margin-bottom: 100px;
+  z-index: 25;
 }
 
 .hat-h2 {
@@ -34,15 +36,14 @@
 }
 .what-box-in {
   flex-direction: column;
-  height: 500px;
+  height: 750px;
   margin-left: 200px;
   position: relative;
   display: flex;
 }
 .what-content {
-  width: 450px;
-  height: 33%;
-  min-height: 50%;
+  width: 550px;
+  height: 33.33%;
   transition: 0.5s;
   /* border: 0.5px dashed rgba(255, 255, 255, 0.3); */
   position: relative;
@@ -52,14 +53,14 @@
 
 .what-noTouch:hover,
 .what-content-active {
-  min-height: 67%;
+  height: 70%;
   padding: 40px 50px;
 }
 
 .what-noTouch:hover ~ .what-content,
 .what-box-in:hover .what-noTouch:not(:hover),
 .what-content.what-sibling {
-  min-height: 33%;
+  height: 15%;
   padding: 10px 50px;
 }
 .what-content h3 {
@@ -204,7 +205,7 @@
   animation: whatBorders 1.2s 1 forwards;
 }
 .what-border2 svg {
-  height: 500px;
+  height: 750px;
   top: 50%;
   transform: translateY(-50%);
   position: absolute;
@@ -254,7 +255,7 @@
     margin-right: 20%;
   }
   .what-box-in {
-    height: 400px;
+    height: 600px;
   }
   .what-content h3 {
     font-size: 28px;
@@ -295,7 +296,7 @@
     padding-bottom: 50px;
   }
   .what-box-in {
-    height: 500px;
+    height: 750px;
     margin-left: -50px;
   }
   .what-content {
@@ -307,14 +308,14 @@
   }
   .what-noTouch:hover,
   .what-content-active {
-    min-height: 67%;
+    height: 70%;
     padding: 50px;
   }
 
   .what-noTouch:hover ~ .what-content,
   .what-box-in:hover .what-noTouch:not(:hover),
   .what-content.what-sibling {
-    min-height: 33%;
+    height: 15%;
     padding: 10px 50px;
   }
 }
@@ -331,7 +332,7 @@
     justify-content: left;
   }
   .what-box:last-child {
-    height: 500px;
+    height: 750px;
   }
   .what-box {
     width: 500px;
@@ -343,7 +344,7 @@
   }
   .what-box-in {
     margin-left: 0px;
-    height: 450px;
+    height: 650px;
   }
   .what-content h5,
   .what-content-flex {
